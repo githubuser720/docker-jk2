@@ -1,10 +1,10 @@
 ### Jedi Knight II: Jedi Outcast Docker Container
 
-This repository is a Docker image configuration aimed at hosting a Jedi Knight II: Jedi Outcast dedicated server (jk2mv v1.2.1) as a container. It couldn't be any simpler.
+This repository is a container image configuration for hosting a Jedi Knight II: Jedi Outcast dedicated server, jk2mv.
 
 #### Method
 
-The Docker file is pretty simple. It exposes the necessary ports to run the server and installs some dependencies. This repository contains the Linux binaries for the server and the native shared library needed to host the fastest server possible.
+The Dockerfile exposes the necessary ports to run the server and installs some dependencies. This repository contains the native shared library needed to host server. However, you will need to download the amd64 binary of jk2mvded from https://github.com/mvdevs/jk2mv/releases (you want the jk2mv-vX.X.X-dedicated.zip).
 
 #### Launching
 
